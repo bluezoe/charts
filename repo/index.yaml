@@ -1,0 +1,20 @@
+apiVersion: v1
+entries:
+  ibm-icpmonitoring:
+  - created: 2017-11-08T19:24:51.33511386-06:00
+    description: IBM monitoring service in private cloud
+    digest: d0879ba17bbebfd41d3f35ce06681ae66f389af9f3ad9a5581fd50fa061f453b
+    engine: gotpl
+    name: ibm-icpmonitoring
+    sources:
+    - https://github.com/prometheus/prometheus
+    - https://github.com/prometheus/alertmanager
+    - https://github.com/prometheus/node_exporter
+    - https://github.com/kubernetes/kube-state-metrics
+    - https://github.com/grafana/grafana
+    - https://github.com/prometheus/collectd_exporter
+    tillerVersion: '>=2.5.0'
+    urls:
+    - ibm-icpmonitoring-0.9.1.tgz
+    version: 0.9.1
+generated: 2017-11-08T19:24:51.333247865-06:00
