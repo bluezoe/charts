@@ -15,6 +15,6 @@ entries:
     - https://github.com/prometheus/collectd_exporter
     tillerVersion: '>=2.5.0'
     urls:
-    - http://127.0.0.1:8879/ibm-icpmonitoring-1.0.0.tgz
+    - https://raw.githubusercontent.com/bluezoe/charts/master/repo/ibm-icpmonitoring-1.0.0.tgz
     version: 1.0.0
 generated: 2018-03-14T13:13:55.320787-05:00
