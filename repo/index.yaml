@@ -1,9 +1,9 @@
 apiVersion: v1
 entries:
   ibm-icpmonitoring:
-  - created: 2018-03-14T13:03:10.983748-05:00
+  - created: 2018-03-14T13:11:05.71351-05:00
     description: IBM monitoring service in private cloud
-    digest: cc1f9e9ed1327ff2ac80cc062d7dbf2e42abf102e9bec8b259df6875d3ca3cba
+    digest: 9e34bce1fed521696d81f0431f2965e7c8ed2dcf3a381c30bec645c0d955a980
     engine: gotpl
     name: ibm-icpmonitoring
     sources:
@@ -15,6 +15,6 @@ entries:
     - https://github.com/prometheus/collectd_exporter
     tillerVersion: '>=2.5.0'
     urls:
-    - https://raw.githubusercontent.com/bluezoe/charts/master/repo/ibm-icpmonitoring-1.0.0.tgz
+    - http://127.0.0.1:8879/ibm-icpmonitoring-1.0.0.tgz
     version: 1.0.0
-generated: 2018-03-14T13:03:10.982064-05:00
+generated: 2018-03-14T13:11:05.711606-05:00
