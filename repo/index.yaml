@@ -1,9 +1,9 @@
 apiVersion: v1
 entries:
   ibm-icpmonitoring:
-  - created: 2018-08-26T14:31:30.601814-05:00
+  - created: 2018-08-26T14:33:46.986904-05:00
     description: IBM monitoring service in private cloud
-    digest: 3fe3c7f623ca68be8c178dc67a25e8fe4aeec8eb5c721159a2ba115e7caba691
+    digest: ad193fd38f2b43a2ddc9d280d1d9a00cc98e45483c66fc029da93ea651db17dc
     engine: gotpl
     keywords:
     - IcpClusterResource
@@ -25,4 +25,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/bluezoe/charts/master/repo/ibm-icpmonitoring-1.2.0.tgz
     version: 1.2.0
-generated: 2018-08-26T14:31:30.59762-05:00
+generated: 2018-08-26T14:33:46.981727-05:00
